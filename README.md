@@ -2,12 +2,16 @@
 An algorithm and architecture to efficiently share files in group
 <br><br>
 We could say SHAREIT is one of the best applications in the play store. It provides ultra easy UI to share files with friends. Have a group? No problem!! SHAREIT provides group share. Hold your horses!! The problem arises if a group is a bit big. The architecture of the group share in the former is not polished enough to provide efficient file transfer within a group. Lets brief into constraints,<br><br>
-1.Group size constraint<br>
-2.Networking constraint<br>
+1. Group size constraint<br>
+2. Networking constraint<br>
 <br>
-<b>Group size constraint:</b> SHAREIT has limited the max group size to be 5. Moreover, it uses hotspot/WIFI to transfer the file, every device has the number of connection limitations too.
+<b>Group size constraint:</b> 
 <br>
-<b>Networking constraint:</b> It makes every node and the server connected in a single network. So, only one node can receive the file at a time frame, because of congestion control. This is similar to, single processor system handling multiple processes.
+SHAREIT has limited the max group size to be 5. Moreover, it uses hotspot/WIFI to transfer the file, every device has the number of connection limitations too.
+<br><br>
+<b>Networking constraint:</b>
+<br>
+It makes every node and the server connected in a single network. So, only one node can receive the file at a time frame, because of congestion control. This is similar to, single processor system handling multiple processes.
 <br><br>
 Theoretically, these points prove the inefficiency of SHAREIT group share architecture. We tested practically too, the transfer takes place at snail pace.
 <br>
@@ -20,7 +24,7 @@ Initially, the sender gets the hotspot hardware address of the receivers(part to
 <br><br>
 Congestion and hardware limitation has been solved. 
 <br><br>
-<i>Note:</i> The carrier of several networks may lie in the same collision band in practical implementation.
+<i>Note: The carrier of several networks may lie in the same collision band in practical implementation.</i>
 <br><br><br>
 
 <h2>Idea 2</h2>
