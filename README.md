@@ -25,6 +25,10 @@ Initially, the sender gets the hotspot hardware address of the receivers(part to
 Congestion and hardware limitation has been solved. 
 <br><br>
 <i>Note: The carrier of several networks may lie in the same collision band in practical implementation.</i>
+<br><br>
+<b>Result:</b>
+<br>
+Coded this idea for ethernet. Checked in LAN system with star topology working fine with considerable speed up. Soon, I will update compared and accurate results.
 <br><br><br>
 
 <h2>Idea 2</h2>
