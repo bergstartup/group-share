@@ -29,6 +29,12 @@ Congestion and hardware limitation has been solved.
 <b>Result:</b>
 <br>
 Coded this idea for ethernet. Checked in LAN system with star topology working fine with considerable speed up. Soon, I will update compared and accurate results.
+<br><br>
+Image representation:
+<br>
+<img src="grp_share.jpg"/>
+<br>
+
 <br><br><br>
 
 <h2>Idea 2</h2>
