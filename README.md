@@ -32,7 +32,7 @@ Coded this idea for ethernet. Checked in LAN system with star topology working f
 <br><br>
 Image representation:
 <br>
-<img src="grp_share.jpg"/>
+<img src="seeder_ethernet/grp_share.jpg"/>
 <br>
 
 <br><br><br>
