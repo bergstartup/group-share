@@ -11,7 +11,7 @@ SHAREIT has limited the max group size to be 5. Moreover, it uses hotspot/WIFI t
 <br><br>
 <b>Networking constraint:</b>
 <br>
-It makes every node and the server connected in a single network. So, only one node can receive the file at a time frame, because of congestion control. This is similar to, single processor system handling multiple processes.
+It makes every node and the server connected in a single network. So, only one node can receive the file at a time frame, because of collision avoidance. This is similar to, single processor system handling multiple processes.
 <br><br>
 Theoretically, these points prove the inefficiency of SHAREIT group share architecture. We tested practically too, the transfer takes place at snail pace.
 <br>
